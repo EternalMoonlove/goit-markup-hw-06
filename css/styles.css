@@ -1,10 +1,10 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400, 500, 700;
   font-style: normal;
   color: #434455;
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 
 ul a {
