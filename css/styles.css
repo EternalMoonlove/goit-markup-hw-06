@@ -15,16 +15,16 @@ ul a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .nav-menu .logo-name {
   font-family: "Raleway", sans-serif;
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .nav-menu .nav-link {
@@ -40,15 +40,21 @@ ul a {
 
 .nav-menu .nav-link:active {
   text-decoration: underline;
+  color: #404bbf;
 }
 
 .contact-info .contact-info-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
   color: #434455;
 }
 
 .contact-info .contact-info-link:hover {
+  color: #404bbf;
+}
+
+.contact-info .contact-info-link:active {
   color: #404bbf;
 }
 
