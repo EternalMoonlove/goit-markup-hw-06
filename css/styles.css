@@ -39,7 +39,6 @@ ul a {
 }
 
 .nav-menu .nav-link:active {
-  text-decoration: underline;
   color: #404bbf;
 }
 
