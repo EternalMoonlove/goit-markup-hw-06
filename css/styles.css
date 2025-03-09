@@ -60,10 +60,14 @@ ul a {
   color: #404bbf;
 }
 
+.main-section {
+  background-color: #2e2f42;
+}
+
 .main-section-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -72,4 +76,19 @@ ul a {
 
 .btn {
   cursor: pointer;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.btn:hover {
+  background-color: #404bbf;
+}
+
+.btn:focus {
+  background-color: #404bbf;
 }
