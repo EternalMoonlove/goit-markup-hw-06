@@ -15,11 +15,14 @@ ul {
 
 ul a {
   text-decoration: none;
+  color: inherit;
 }
 
 /**================= Common Styles =================**/
 
 /*! ================================================**/
+
+/**================= Header Styles =================**/
 
 .nav-menu .logo-link {
   font-family: 'Raleway', sans-serif;
@@ -59,7 +62,6 @@ ul a {
 .contact-info .contact-info-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .contact-info .contact-info-link:hover {
@@ -70,11 +72,17 @@ ul a {
   color: #404bbf;
 }
 
-.main-section {
+/**================= Header Styles =================**/
+
+/*! ================================================**/
+
+/**================= Hero Section Styles =================**/
+
+.hero-section {
   background-color: #2e2f42;
 }
 
-.main-section-title {
+.hero-section-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -103,6 +111,12 @@ ul a {
   background-color: #404bbf;
 }
 
+/**================= Hero Section Styles =================**/
+
+/*! ================================================**/
+
+/**================= Benefits Section Styles =================**/
+
 .list-title {
   font-weight: 500;
   font-size: 20px;
@@ -116,11 +130,17 @@ ul a {
   letter-spacing: 0.02em;
 }
 
-.third-section {
+/**================= Benefits Section Styles =================**/
+
+/*! ================================================**/
+
+/**================= Our Team Section Styles =================**/
+
+.our-team-section {
   background-color: #f4f4fd;
 }
 
-.section-title {
+.our-team-section-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -129,9 +149,15 @@ ul a {
   color: #2e2f42;
 }
 
-.third-section .team-list {
+.team-list-item {
   background-color: #ffffff;
 }
+
+/**================= Our Team Section Styles =================**/
+
+/*! ================================================**/
+
+/**================= Footer Styles =================**/
 
 .footer {
   background-color: #2e2f42;
@@ -158,3 +184,5 @@ ul a {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
+/**================= Footer Styles =================**/
