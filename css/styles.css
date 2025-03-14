@@ -252,6 +252,8 @@ img {
 /**================= Our Team Section Styles =================**/
 
 .our-team-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: #f4f4fd;
 }
 
@@ -265,8 +267,7 @@ img {
 }
 
 .our-team-section-title {
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-list-item {
@@ -277,23 +278,24 @@ img {
 
 .team-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
   padding-bottom: 120px;
 }
 
 .team-list-item {
-  /** display: flex; **/
   border-radius: 0 0 4px 4px;
-  /** padding-bottom: 32px; **/
 }
 
 .our-team-img-list-item {
   border: 1px solid #000;
 }
 
-.team-list-item .list-title {
-  display: flex;
-  align-items: flex-end;
+.our-team-container-text .list-title {
+  text-align: center;
+}
+
+.our-team-container-text .list-text {
+  text-align: center;
 }
 
 .our-team-container-text {
