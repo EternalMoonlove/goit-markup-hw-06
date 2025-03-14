@@ -53,15 +53,9 @@ img {
 
 .container-header {
   display: flex;
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
   align-items: center;
   padding-left: 15px;
   padding-right: 15px;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .page-header {
@@ -126,12 +120,9 @@ img {
 .contact-info-list {
   font-style: normal;
   display: flex;
-}
-
-.contact-info-list {
-  display: flex;
   gap: 40px;
 }
+
 .contact-info-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
