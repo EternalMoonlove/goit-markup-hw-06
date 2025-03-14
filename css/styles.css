@@ -64,8 +64,8 @@ img {
 
 .nav-menu {
   display: flex;
-  /** padding-top: 24px;
-  padding-bottom: 24px; **/
+  padding-top: 24px;
+  padding-bottom: 24px;
   align-items: center;
 }
 
