@@ -64,8 +64,6 @@ img {
 
 .nav-menu {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
   align-items: center;
 }
 
@@ -97,6 +95,8 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
   color: #2e2f42;
 }
 
