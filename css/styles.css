@@ -279,7 +279,7 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
+  /** padding-bottom: 120px; **/
 }
 
 .team-list-item {
@@ -312,13 +312,27 @@ img {
 /*! ================================================**/
 
 /**================= Our Portfolio Section Styles =================**/
+.our-portfolio-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .our-portfolio-section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  margin-bottom: 72px;
   text-align: center;
   color: #2e2f42;
+}
+
+.our-portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-content: 48px;
+  padding-bottom: 12;
 }
 
 .our-portfolio-list-item .list-title {
@@ -336,22 +350,10 @@ img {
   color: #434455;
 }
 
-.our-portfolio-section-title {
-  padding-bottom: 72px;
-}
-
-.our-portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  align-content: 48px;
-  padding-bottom: 12;
-}
-
 .our-portfolio-list-container {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .our-portfolio-list-container .list-title {
@@ -386,6 +388,7 @@ img {
 }
 
 .footer-section .logo-link {
+  display: inline-block;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
