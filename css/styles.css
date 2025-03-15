@@ -54,8 +54,8 @@ img {
 .container-header {
   display: flex;
   align-items: center;
-  padding-left: 15px;
-  padding-right: 15px;
+  /** padding-left: 15px;
+  padding-right: 15px; **/
 }
 
 .page-header {
@@ -82,8 +82,8 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /** padding-top: 24px;
+  padding-bottom: 24px; **/
 }
 
 .nav-menu .logo-name {
@@ -92,6 +92,7 @@ img {
 }
 
 .nav-menu .nav-link {
+  display: block;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -285,10 +286,6 @@ img {
   border-radius: 0 0 4px 4px;
 }
 
-.our-team-img-list-item {
-  border: 1px solid #000;
-}
-
 .our-team-container-text .list-title {
   text-align: center;
 }
@@ -329,8 +326,8 @@ img {
 .our-portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 48px;
   column-gap: 24px;
+  row-gap: 48px;
   align-content: 48px;
   padding-bottom: 12;
 }
@@ -361,9 +358,10 @@ img {
   margin-bottom: 8px;
 }
 
-.our-portfolio-list-item:not(:last-child) {
-  margin-bottom: 48px;
-}
+/**.our-portfolio-list-item:not(:last-child) {
+  margin-bottom: 48px; 
+} **/
+
 /**================= Our Portfolio Section Styles =================**/
 
 /*! ================================================**/
