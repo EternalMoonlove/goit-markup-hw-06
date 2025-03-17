@@ -65,6 +65,22 @@ img {
   align-items: center;
 }
 
+.nav-list {
+  position: relative;
+}
+
+.nav-link-container::after {
+  position: absolute;
+  content: '';
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border: 2px solid #404bbf;
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+}
+
 .logo-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -140,13 +156,19 @@ img {
 /**================= Hero Section Styles =================**/
 
 .hero-section {
-  background-color: #2e2f42;
-}
-
-.hero-section {
+  display: flex;
   padding-top: 188px;
   padding-bottom: 188px;
-  display: flex;
+  background-color: #2e2f42;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/bckgrnd-img-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .hero-section-title {
@@ -157,7 +179,7 @@ img {
   max-width: 496px;
   text-align: center;
   color: #fff;
-  background-color: #2e2f42;
+  /** background-color: #2e2f42;**/
 }
 
 .hero-section-title {
@@ -227,6 +249,16 @@ img {
 
 .benefits-item {
   width: calc((100% - 72px) / 4);
+}
+
+.svg-benefits-item-container {
+  display: flex;
+  padding: 24px 100px;
+  margin-bottom: 8px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
 }
 
 .list-title {
