@@ -316,13 +316,13 @@ img {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
+.team-list-item {
+  border-radius: 0 0 4px 4px;
+}
+
 .team-list {
   display: flex;
   gap: 24px;
-}
-
-.team-list-item {
-  border-radius: 0 0 4px 4px;
 }
 
 .our-team-container-text .list-title {
@@ -339,6 +339,40 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.our-team-svg-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.our-team-svg-list-item {
+  /** background-color: #000000; **/
+  width: 40px;
+  height: 40px;
+}
+
+.our-team-svg-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+
+.our-team-svg-link:hover {
+  background-color: #404bbf;
+}
+
+.our-team-svg-link:focus {
+  background-color: #404bbf;
+}
+
+.our-team-icon {
+  fill: #f4f4fd;
 }
 
 /**================= Our Team Section Styles =================**/
