@@ -216,7 +216,7 @@ img {
 }
 
 .btn {
-  transition: background-color 250mx cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn:hover {
@@ -263,7 +263,7 @@ img {
 .svg-benefits-item-container {
   display: flex;
   height: 112px;
-  color: #f4f4fd;
+  background-color: #f4f4fd;
   margin-bottom: 8px;
   justify-content: center;
   align-items: center;
