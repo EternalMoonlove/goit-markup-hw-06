@@ -441,7 +441,7 @@ img {
   margin-bottom: 8px;
 }
 
-.our-portfolio-list-container .list-text:hover {
+.our-portfolio-list-container:hover .list-text {
   transform: translateY(0%);
 }
 
