@@ -664,10 +664,8 @@ img {
   fill: #f4f4fd;
 }
 
-.modal-btn-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.privacy-link {
+  color: #4d5ae5;
 }
 
 .modal-btn {
