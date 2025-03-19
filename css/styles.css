@@ -470,6 +470,54 @@ img {
 
 /*! ================================================**/
 
+/**================= Modal Overlay Styles =================**/
+
+.modal-overlay {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: rgba(46, 47, 66, 0.4);
+}
+
+.modal {
+  width: 408px;
+  height: 584px;
+  background-color: #ffffff;
+}
+
+.modal-form-container {
+  display: flex;
+
+  margin: 16px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.modal-text-container {
+  display: flex;
+  margin-top: 72px;
+  margin-bottom: 16px;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+/**================= Modal Overlay Styles =================**/
+
+/*! ================================================**/
+
 /**================= Footer Styles =================**/
 
 .footer-section {
