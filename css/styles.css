@@ -462,7 +462,7 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-portfolio-list-item:hover .overlay-container {
+.our-portfolio-list-item:hover .overlay-text {
   transform: translateY(0);
 }
 
