@@ -658,7 +658,7 @@ img {
   fill: transparent;
 }
 
-.input .privacy-span:checked {
+.checkbox-input-item:checked + .privacy-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
