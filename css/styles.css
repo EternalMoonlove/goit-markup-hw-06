@@ -544,10 +544,16 @@ img {
 }
 
 .modal-close-btn:hover,
-.modal-close-btn:hover {
+.modal-close-btn:focus {
   background-color: #404bbf;
   border: none;
 }
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  fill: #ffffff;
+}
+
 .modal-form-container {
   display: flex;
   gap: 8px;
