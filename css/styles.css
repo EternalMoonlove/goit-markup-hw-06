@@ -843,11 +843,18 @@ img {
   gap: 16px;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
 }
 .subscribe-icon {
+  margin-left: 16px;
 }
 
 /**================= Footer Styles =================**/
