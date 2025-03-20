@@ -855,6 +855,7 @@ img {
 }
 .subscribe-icon {
   margin-left: 16px;
+  flex-shrink: 0;
 }
 
 /**================= Footer Styles =================**/
