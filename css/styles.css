@@ -808,8 +808,9 @@ img {
 }
 /** .subscribe-form-container {
   display: flex;
-  flex-direction: row; **/
-}
+  flex-direction: row; 
+} **/
+
 .subscribe-form {
   display: flex;
   gap: 24px;
