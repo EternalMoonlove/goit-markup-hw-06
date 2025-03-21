@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,7 +24,7 @@
       <div class="container container-header">
         <nav class="nav-menu">
           <a href="./index.html" class="logo-link">
-            Web<span class="logo-name">Studio</span>
+            Web<span class="logo-name-span">Studio</span>
           </a>
           <ul class="nav-list">
             <li class="nav-list-item">
@@ -52,23 +52,101 @@
             </li>
           </ul>
         </address>
+
+        <!-- burger menu -->
+
+        <button class="burger-menu-button" type="button">
+          <svg class="burger-menu-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger-menu-svg"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close-btn" type="button">
+            <svg class="close-icon-btn" width="24" height="24">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-menu-list">
+              <li class="mobile-menu-item">
+                <a href="" class="mobile-menu-link">Studio</a>
+              </li>
+              <li class="mobile-menu-item">
+                <a href="" class="mobile-menu-link">Portfolio</a>
+              </li>
+              <li class="mobile-menu-item">
+                <a href="" class="mobile-menu-link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mobile-menu-contact-info">
+            <ul class="mobile-menu-contact-list">
+              <li class="mobile-menu-contact-item">
+                <a href="tel:+110001111111" class="mobile-menu-contact-link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="mobile-menu-contact-link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div class="social-link-mobile-menu">
+            <ul class="mobile-menu-social-list">
+              <li class="mobile-menu-social-item">
+                <a href="" class="mobile-menu-social-link">
+                  <svg class="mobile-menu-social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-menu-social-item">
+                <a href="" class="mobile-menu-social-link">
+                  <svg class="mobile-menu-social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-menu-social-item">
+                <a href="" class="mobile-menu-social-link">
+                  <svg class="mobile-menu-social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-menu-social-item">
+                <a href="" class="mobile-menu-social-link">
+                  <svg class="mobile-menu-social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <main>
       <!-- Hero Section -->
 
-      <section class="hero-section">
+      <!-- <section class="hero-section">
         <div class="container">
           <h1 class="hero-section-title">
             Effective Solutions for Your Business
           </h1>
           <button type="button" class="btn">Order Service</button>
         </div>
-      </section>
+      </section> -->
 
       <!-- Benefits Section -->
 
-      <section class="benefits-section">
+      <!-- <section class="benefits-section">
         <div class="container">
           <h2 class="visually-hidden">Benefits</h2>
           <ul class="benefits-list">
@@ -122,11 +200,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Our Team Section-->
 
-      <section class="our-team-section">
+      <!-- <section class="our-team-section">
         <div class="container">
           <h2 class="our-team-section-title">Our Team</h2>
           <ul class="team-list">
@@ -304,11 +382,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Our Portfolio Section -->
 
-      <section class="our-portfolio-section">
+      <!-- <section class="our-portfolio-section">
         <div class="container">
           <h2 class="our-portfolio-section-title">Our Portfolio</h2>
           <ul class="our-portfolio-list">
@@ -434,12 +512,12 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <!-- footer -->
 
-    <footer class="footer-section">
+    <!-- <footer class="footer-section">
       <div class="container-footer">
         <div class="footer-logo-text">
           <a href="./index.html" class="logo-link">
@@ -485,7 +563,7 @@
         </div>
         <div class="subscribe-container">
           <p class="subscribe-text">Subscribe</p>
-          <!-- <div class="subscribe-form-container"> -->
+
           <form class="subscribe-form">
             <label class="subscribe-label">
               <input
@@ -503,14 +581,13 @@
               </svg>
             </button>
           </form>
-          <!-- </div> -->
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <!-- modal overlay -->
 
-    <div class="modal-overlay">
+    <!-- <div class="modal-overlay">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg class="modal-close-icon" width="8" height="8">
@@ -592,6 +669,6 @@
           <button type="submit" class="modal-btn">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
