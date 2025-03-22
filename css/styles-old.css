@@ -115,7 +115,7 @@
 
 /**================= Hero Section Styles =================**/
 
-.hero-section {
+/* .hero-section {
   display: flex;
   max-width: 1440px;
   margin: 0 auto;
@@ -131,9 +131,9 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-}
+} */
 
-.hero-section-title {
+/* .hero-section-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -142,13 +142,14 @@
   text-align: center;
   color: #fff;
   /** background-color: #2e2f42;**/
-}
+/* } */
+*/
 
-.hero-section-title {
+/* .hero-section-title {
   width: 496px;
-}
+} */
 
-.btn {
+/* .btn {
   cursor: pointer;
   background-color: #4d5ae5;
   font-family: 'Roboto', sans-serif;
@@ -182,7 +183,7 @@
 
 .btn:focus {
   background-color: #404bbf;
-}
+} */
 
 /**================= Hero Section Styles =================**/
 
