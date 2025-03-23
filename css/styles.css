@@ -273,6 +273,10 @@ button:focus {
   justify-content: center;
 }
 
+.mobile-menu-social-icon {
+  fill: #fff;
+}
+
 .mobile-menu-close-btn {
   position: absolute;
   display: flex;
